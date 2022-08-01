@@ -6,8 +6,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class MainController {
 
-    @GetMapping("/start")
-    public String start() {
-        return "start";
+    @GetMapping("/practice")
+    public String practice() {
+        return "practice";
+    }
+
+    @GetMapping("/results")
+    public String results() {
+        return "results";
     }
 }
